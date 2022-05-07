@@ -225,7 +225,9 @@ padding-bottom: 94px;
 }
 
 .img-list img {
-    width: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .list-title {
@@ -267,7 +269,9 @@ padding-bottom: 94px;
 }
 
 .staff-list img {
-    width: 100%;
+    display: block;
+    max-width: 100%;
+    height: auto;
 }
 
 .staff-list li {
@@ -380,7 +384,9 @@ padding-bottom: 94px;
 }
 
 .works-list img {
+    display: block;
     width: 100%;
+    height: auto;
 }
 
 .works-list-css {
