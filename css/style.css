@@ -46,8 +46,15 @@ padding-bottom: 94px;
 }
 
 .title-section {
+    text-align: center;
     padding-top: 200px;
     padding-bottom: 200px;
+    max-width: 1600px;
+    height: 600px;
+    background-image: linear-gradient(to right, rgba(47,48,58,0.4), rgba(47,48,58,0.4)),
+    url(../images/Bg\(1\).jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
 }
 
 .sub-section {
@@ -179,11 +186,6 @@ padding-bottom: 94px;
 }
 
 
-.title-section {
-    background-color: #2F303A;
-    text-align: center;
-}
-
 .main-title {
     max-width: 696px;
     margin: 0 auto 30px;
@@ -217,6 +219,7 @@ padding-bottom: 94px;
 
 .text-list li {
     flex: 1 1 0px;
+    margin-right: 15px;
 }
 
 .img-list {
