@@ -252,6 +252,15 @@ body {
     margin-bottom: 10px;
 }
 
+.text-list-item::before{
+    display: block;
+    content: "";
+    height: 120px;
+    border-radius: 4px;
+    background-color: #F5F4FA;
+    margin-bottom: 30px;
+}
+
 .list-desc {
     font-weight: 400;
     font-size: 14px;
